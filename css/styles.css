@@ -25,3 +25,36 @@ a{
 }
 
 /*------------------------------------------------------*/
+
+/*header*/
+.content__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(359, 51%, 41%);
+}
+
+/*div*/
+.main__logo{
+    color: #fff;
+    letter-spacing: -.3em;
+}
+
+/*ul*/
+.main__menu{
+    display: flex;
+}
+
+/*a*/
+.main__menu__links{
+    display: block;
+    padding: 1.2em;
+    /* Styles */
+    font-size: 1.2em;
+    background-color: hsl(359, 51%, 41%);
+    color: hsl(60, 100%, 99%);;
+}
+
+.main__menu__links:hover{
+    background-color: hsl(359, 49%, 31%); 
+}
