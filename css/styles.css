@@ -45,9 +45,10 @@ a{
 }
 
 /*div*/
-.main__logo{
+.main__logo a{
+    font-size: 2.5em;
     color: #fff;
-    letter-spacing: -.3em;
+    letter-spacing: -.2em;
 }
 
 /*ul*/
