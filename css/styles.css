@@ -28,10 +28,20 @@ a{
 
 /*header*/
 .content__menu{
+    background-color: hsl(359, 51%, 41%);
+}
+
+/*div*/
+.outer-wrap{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*div*/
+.inner-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(359, 51%, 41%);
 }
 
 /*div*/
