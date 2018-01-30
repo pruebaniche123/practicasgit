@@ -157,20 +157,21 @@ a{
     background-color: #fff;
 }
 
-.content__imagen{
-    
+.card a:hover{
+    box-shadow: 3px 3px 3px hsl(0, 0%, 70%);
 }
-
 
 /* div */
 .description{
-    padding: 1em;
+    padding: 2em;
 }
 
 .description > h2{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .description p{
+    text-align: justify;
     line-height: 1.5em;
 }
